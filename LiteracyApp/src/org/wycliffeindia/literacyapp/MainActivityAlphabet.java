@@ -49,7 +49,7 @@ public class MainActivityAlphabet extends Activity {
 
 		public PlaceholderFragment() {
 		}
-
+//This is a comment
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
