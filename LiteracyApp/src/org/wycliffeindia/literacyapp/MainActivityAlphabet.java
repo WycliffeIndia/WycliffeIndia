@@ -48,6 +48,7 @@ public class MainActivityAlphabet extends Activity {
 	public static class PlaceholderFragment extends Fragment {
 
 		public PlaceholderFragment() {
+			// I am adding a comment here
 		}
 
 		@Override
