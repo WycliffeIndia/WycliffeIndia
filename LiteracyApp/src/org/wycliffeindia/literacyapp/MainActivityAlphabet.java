@@ -49,7 +49,6 @@ public class MainActivityAlphabet extends Activity {
 
 		public PlaceholderFragment() {
 		}
-
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
