@@ -16,8 +16,6 @@ public class MainActivityAlphabet extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_activity_alphabet);
 		
-		getActionBar().setDisplayHomeAsUpEnabled(true);
-		
 		if (savedInstanceState == null) {
 			getFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();
