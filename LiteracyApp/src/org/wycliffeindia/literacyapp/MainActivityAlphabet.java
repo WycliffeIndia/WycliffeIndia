@@ -15,7 +15,7 @@ public class MainActivityAlphabet extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_activity_alphabet);
-		
+	
 		if (savedInstanceState == null) {
 			getFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();
@@ -49,7 +49,6 @@ public class MainActivityAlphabet extends Activity {
 
 		public PlaceholderFragment() {
 		}
-
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
