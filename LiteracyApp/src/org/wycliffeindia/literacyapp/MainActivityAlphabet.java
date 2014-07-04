@@ -49,7 +49,6 @@ public class MainActivityAlphabet extends Activity {
 
 		public PlaceholderFragment() {
 		}
-// That will be a conflict sir.  Is that relational, conceptuaddddl, technical
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
